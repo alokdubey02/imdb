@@ -11,6 +11,7 @@ export default function About() {
         <p>
             In addition to our extensive movie database, we also offer a platform for movie lovers to connect and share their thoughts on the latest releases. Our community section includes a forum where you can discuss your favorite films with like-minded individuals and read reviews and rating form other users.
         </p>
+        <p>Alok Dubey</p>
     </div>
   )
 }
