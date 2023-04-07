@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
+import {BsInstagram} from 'react-icons/bs'
 
 export default function About() {
   return (
@@ -12,6 +14,22 @@ export default function About() {
             In addition to our extensive movie database, we also offer a platform for movie lovers to connect and share their thoughts on the latest releases. Our community section includes a forum where you can discuss your favorite films with like-minded individuals and read reviews and rating form other users.
         </p>
         <p>Alok Dubey</p>
+        <div className='flex'>
+          <img src="instagram.svg" alt="instagram" className='mr-2'/>
+        <p>@alok_____dubey</p>
+        <Link href="https://www.instagram.com/alok_____dubey/?hl=en">
+        <button className='ml-4 hover:text-amber-600'>Connect</button>
+       </Link>
+        </div>
+
+        <div className='flex'>
+          <img src="linkedin.svg" alt="linkedin" className='mr-2'/>
+        <p>@alok_____dubey</p>
+        <Link href="https://www.linkedin.com/in/alok-kumar-dubey-44346325a">
+        <button className='ml-4 hover:text-amber-600' >Connect</button>
+       </Link>
+        </div>
+
     </div>
   )
 }
